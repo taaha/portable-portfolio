@@ -7,7 +7,7 @@
 - Coding the future, where AI and human ingenuity converge.
 
 ## About
-Write your "About" section here.
+I hold a Master's degree in Systems Engineering and have obtained a certification in Data Science from IBM. Throughout my academic and professional journey, I have successfully completed several projects in the fields of Natural Language Processing (NLP), Computer Vision, Large Language Models (LLMs), and Reinforcement Learning.
 
 ## Contact
 
@@ -16,4 +16,4 @@ Write your "About" section here.
 - Email: taaha.s.bajwa@gmail.com
 
 ## Logo
-- EB
+- TB

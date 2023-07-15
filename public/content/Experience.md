@@ -6,4 +6,4 @@
   -  [blue]
 - List Items:
   - LLM Applications
-  - Vision Classifiers
+  - Machine Vision
