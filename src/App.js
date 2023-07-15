@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Nav from './components/NavBar';
-import Header from './components/Hero';
-import About from './components/About';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import HomePage from './pages/homepage';
+import Chatpdf from './pages/chatpdf';
 
 function App() {
   // Available Colours:
@@ -17,13 +15,14 @@ function App() {
 
   return (
     <>
-      <Nav color={color} />
-      <Header color={color} />
-      <About color={color} />
-      <Experience color={color} />
-      <Projects color={color} />
-      <Contact color={color} />
-      <Footer />
+    <Router>
+        <Nav color={color} />
+            <Switch>
+              <Route exact path='/' component={HomePage} />
+              <Route path='/chatpdf' component={Chatpdf} />
+            </Switch>
+        <Footer />
+      </Router>
     </>
   );
 }
