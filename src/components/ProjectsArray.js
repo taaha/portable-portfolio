@@ -31,6 +31,7 @@ const parseProjects = (mdContent) => {
         buttons.push({ text: buttonText, href: buttonHref });
       }
 
+      
       projects.push({
         name,
         description,
