@@ -14,6 +14,15 @@ import {
   HStack,
   Link,
 } from "@chakra-ui/react";
+import {
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+} from '@chakra-ui/react'
 import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { useState } from "react";
 import ProfileArray from "./ProfileArray";
@@ -110,6 +119,32 @@ export default function Nav({ color }) {
                 <Button variant="ghost" onClick={scrollToContact}>
                   Contact
                 </Button>
+                <>
+                <Button variant="ghost" onClick={onOpen}>
+                  Credits
+                </Button>
+
+                <Modal isOpen={isOpen} onClose={onClose}>
+                  <ModalOverlay />
+                  <ModalContent>
+                    <ModalHeader>Acknowledgement</ModalHeader>
+                    <ModalCloseButton />
+                    <ModalBody>
+                      Special thanks to{' '}
+                      <Link color='teal.500' href='https://github.com/eldoraboo' isExternal>
+                        Eldoraboo
+                      </Link>
+                      {' '}for open sourcing this react template!
+                    </ModalBody>
+
+                    <ModalFooter>
+                      <Button colorScheme='blue' mr={3} onClick={onClose}>
+                        Close
+                      </Button>
+                    </ModalFooter>
+                  </ModalContent>
+                </Modal>
+    </>
               </>
             ) : (
               <></>
