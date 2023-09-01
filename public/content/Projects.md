@@ -6,7 +6,7 @@ A Streamlit application which uses GPT3.5, OpenAI embeddings and Pinecone vector
   - NLP [blue]
   - LLM [blue]
 - Buttons:
-  - Try it out! [/chatpdf]
+  - Try it out! [https://darthpanda-chatpdf-app.hf.space]
 
 ## Object detection using YOLOv8
 YOLOv8 trained on custom data was used to detect and count chocolates passing on a conveyor belt. Autodistill was used for annotation. Albumentations was used for augmentations. Bytetrack and supervision were used for object tracking and counting.
