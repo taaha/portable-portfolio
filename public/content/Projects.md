@@ -1,12 +1,12 @@
 ## ChatPDF
-A Streamlit application which uses GPT3.5, OpenAI embeddings and Pinecone vector database to answer questions from uploaded documents.
-- ![600x200](https://drive.google.com/uc?export=view&id=1KISfd68XzHrmg31EpH2eoZgg0Tffor1i)
+A Streamlit application which uses GPT3.5 and OpenAI embeddings to answer questions from uploaded documents.
+- ![600x200](https://drive.google.com/uc?export=view&id=1t5R5tOWIatQpkYYPVR1ej-2_pvZ-h9s9)
 - Tags: NLP
 - Badges:
   - NLP [blue]
   - LLM [blue]
 - Buttons:
-  - Try it out! [https://darthpanda-chatpdf-app.hf.space]
+  - Try it out! [https://darthpanda-rag-ui.hf.space]
 
 ## Object detection using YOLOv8
 YOLOv8 trained on custom data was used to detect and count chocolates passing on a conveyor belt. Autodistill was used for annotation. Albumentations was used for augmentations. Bytetrack and supervision were used for object tracking and counting.
