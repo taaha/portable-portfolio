@@ -17,20 +17,20 @@ export default function Header({ color }) {
     const contactSection = document.querySelector("#contact");
     contactSection.scrollIntoView({ behavior: "smooth" });
   };
-  // const linkedin = () => {
-  //   window.open(
-  //               `${profile.linkedin}`,
-  //               "_blank",
-  //               "noreferrer,noopener"
-  //             );
-  // };
-
-  const downloadResume = () => {
-    const link = document.createElement("a");
-    link.href = "assets/Machine_learning_Engineer_Resume.pdf";
-    link.download = "Taaha_Bajwa.pdf";
-    link.click();
+  const linkedin = () => {
+    window.open(
+                `${profile.linkedin}`,
+                "_blank",
+                "noreferrer,noopener"
+              );
   };
+
+  // const downloadResume = () => {
+  //   const link = document.createElement("a");
+  //   link.href = "assets/Machine_learning_Engineer_Resume.pdf";
+  //   link.download = "Taaha_Bajwa.pdf";
+  //   link.click();
+  // };
   
   return (
     <>
@@ -80,9 +80,9 @@ export default function Header({ color }) {
               _hover={{
                 bg: `${color}.500`,
               }}
-              onClick={downloadResume}
+              onClick={linkedin}
             >
-              Download Resume
+              Contact Me
             </Button>
             <Button
               variant={"link"}
