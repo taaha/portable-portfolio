@@ -11,7 +11,7 @@ I hold a Master's degree in Systems Engineering and have obtained a certificatio
 
 ## Contact
 I'm always actively looking for new opportunities. If you wish to engage me for a project or role, you can reach me via my inbox. I will get back to you as soon as I can!
-- LinkedIn: https://linkedin.com/in/username
+- LinkedIn: https://www.linkedin.com/in/taaha-bajwa-5a720944/
 - GitHub: https://github.com/taaha
 - Email: taaha.s.bajwa@gmail.com
 
